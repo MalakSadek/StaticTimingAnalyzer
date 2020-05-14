@@ -25,3 +25,10 @@ Using as inputs a SCL JSON file and JSON files containing Timing Constraints, Ne
 * Finds critical path by examining the total delay of each identified path and taking the maximum
 * Checks for setup and hold violations using Tcycle from the timing constrains file
 * Displays the report and DAG in the GUI
+
+# Contact
+
+* email: mfzs1@st-andrews.ac.uk
+* LinkedIn: www.linkedin.com/in/malak-sadek-17aa65164/
+* website: https://malaksadek.wordpress.com/
+
