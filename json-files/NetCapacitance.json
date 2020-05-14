@@ -1,0 +1,160 @@
+{
+  "cells": [
+    {
+      "name": "AND2X1",
+      "capacitance": 0.0179311
+    },
+    {
+      "name": "AND2X2",
+      "capacitance": 0.0283811
+    },
+    {
+      "name": "AOI21X1",
+      "capacitance": 0.0488934
+    },
+    {
+      "name": "AOI22X2",
+      "capacitance": 0.0983474
+    },
+    {
+      "name": "BUFX2",
+      "capacitance": 0.0236831
+    },
+    {
+      "name": "BUFX4",
+      "capacitance": 0.0489342
+    },
+    {
+      "name": "CLKBUF1",
+      "capacitance": 0.0173048
+    },
+    {
+      "name": "CLKBUF2",
+      "capacitance": 0.0397235
+    },
+    {
+      "name": "CLKBUF3",
+      "capacitance": 0.0392732
+    },
+    {
+      "name": "DFFNEGX1",
+      "capacitance": 0.0974597
+    },
+    {
+      "name": "DFFPOSX1",
+      "capacitance": 0.0297131
+    },
+    {
+      "name": "DFFSR",
+      "capacitance": 0.0287349
+    },
+    {
+      "name": "FAX1",
+      "capacitance": 0.0487291
+    },
+    {
+      "name": "HAX1",
+      "capacitance": 0.0197193
+    },
+        {
+      "name": "INVX1",
+      "capacitance": "0.0032874"
+    },
+    {
+      "name": "INVX2",
+      "capacitance": 0.0937843
+    },
+    {
+      "name": "INX4",
+      "capacitance": 0.0281730
+    },
+    {
+      "name": "INVX8",
+      "capacitance": 0.0387163
+    },
+    {
+      "name": "LATCH",
+      "capacitance": 0.0836251
+    },
+    {
+      "name": "MUX2X1",
+      "capacitance": 0.0181638
+    },
+    {
+      "name": "NAND2X1",
+      "capacitance": 0.0283811
+    },
+    {
+      "name": "NAND3X1",
+      "capacitance": 0.0237495
+    },
+    {
+      "name": "NOR2X1",
+      "capacitance": 0.0573913
+    },
+    {
+      "name": "NOR3X1",
+      "capacitance": 0.0179392
+    },
+    {
+      "name": "OAI21X1",
+      "capacitance": 0.0458173
+    },
+    {
+      "name": "OAI22X1",
+      "capacitance": 0.0674234
+    },
+    {
+      "name": "OR2X1",
+      "capacitance": 0.0123573
+    },
+    {
+      "name": "OR2X2",
+      "capacitance": 0.0684920
+    },
+    {
+      "name": "PADINC",
+      "capacitance": 0.0967382
+    },
+    {
+      "name": "PADINOUT",
+      "capacitance": 0.0139573
+    },
+    {
+      "name": "PADOUT",
+      "capacitance": 0.0291038
+    },
+    {
+      "name": "TBUFX1",
+      "capacitance": 0.0495792
+    },
+    {
+      "name": "TBUFX2",
+      "capacitance": 0.0486022
+    },
+    {
+      "name": "XNOR2X1",
+      "capacitance": 0.0348693
+    },
+    {
+      "name": "XOR2X1",
+      "capacitance": 0.0867402
+    },
+    {
+      "name": "PADFC",
+      "capacitance": 0.0184753
+    },
+    {
+      "name": "PADNC",
+      "capacitance": 0.0743973
+    },
+    {
+      "name": "PADVDD",
+      "capacitance": 0.0164202
+    },
+    {
+      "name": "PADGND",
+      "capacitance": 0.0846274
+    }
+  ]
+}
