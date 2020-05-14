@@ -1,8 +1,8 @@
 # Static Timing Analyzer
 A Logic Circuit Static Timing Analyzer Implemented in Python 🔌 ⚡ (2018)
 
-The analyzer is implemented over several parts.
-It functions on Gate Level Netlists obtained from custom designs created in Verilog. 
+The analyzer is implemented over several parts and outputs HTLM files.
+It functions on Gate Level Netlists obtained from custom designs created in Verilog & C. 
 Using as inputs a SCL JSON file and JSON files containing Timing Constraints, Net Capacitances, and Clock Skews, the system:
 1. Fetches the module name from the GUI and finds it in the gate level netlist file
 2. Searches for each gate in the standard cell library (SCL)
