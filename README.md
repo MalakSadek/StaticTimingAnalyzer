@@ -26,7 +26,7 @@ Using as inputs a `SCL JSON file` and JSON files containing `Timing Constraints`
 5. Checks for setup and hold violations using Tcycle from the timing constrains file
 6. Displays the report and DAG in the GUI
 
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+![picture alt](https://github.com/MalakSadek/StaticTimingAnalyzer/blob/master/OutputDAG.png "Output DAG") ![picture alt](https://github.com/MalakSadek/StaticTimingAnalyzer/blob/master/OutputReport.png "Output Report")
 
 # Contact
 
