@@ -10,15 +10,15 @@ Using as inputs a SCL JSON file and JSON files containing Timing Constraints, Ne
 4. Finds its output capacitance from the net capacitance file and the SCL, and its input slew from the SCL (first gate assumed to have max input slew) to find each timing arc for either rising or falling using the gate’s unate
 5. Adds the gate as a node in the DAG, and stores its delay as the maximum delay of all the timing arcs (A-Y, B-Y, C-Y or CLK-Q)
 
-## If the logic is combinational, it:
+### If the logic is combinational, it:
 1. Adds the delay of the gate to the Tpd of the current path and to the total delay of the current path
 
-## If the logic is sequential, it:
+### If the logic is sequential, it:
 1. Calculates TCQ as the timing arc CLK-Q as mentioned in step 5
 2. Calculates Tskew using the clock skews file by finding the clock that has the same ID as the current flip flop and tracing a random path to that clock through the clock tree generated based on the module chosen
 3. Finds Tsetup and Thold using transition time of pin D (input slew) and transition time of pin CLK (Tskew), chooses rising or falling based on triggering edge
 4. Adds the delay of the gate to the total delay of the current path
-## Finally, it:
+### Finally, it:
 1. For each path, it identifies its type using the current gate’s type and the previous gates’ types
 2. Adds edges between nodes in DAG based on wire connections
 3. Calculates arrival and required time and slack for each node
