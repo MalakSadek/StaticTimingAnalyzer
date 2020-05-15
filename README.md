@@ -1,5 +1,5 @@
 # Static Timing Analyzer
-A Logic Circuit Static Timing Analyzer implemented in `Python` 🔌 ⚡ (2018).
+A Logic Circuit Static Timing Analyzer implemented in `Python` 🔌 ⚡ (2018)
 
 The analyzer is implemented over several parts and outputs `HTML files`.
 It functions on Gate Level Netlists obtained from custom designs created in `Verilog` & `C`. 
